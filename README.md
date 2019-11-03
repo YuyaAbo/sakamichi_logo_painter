@@ -1,6 +1,6 @@
 # sakamichi_logo_painter
 
-![image](https://github.com/YuyaAbo/sakamichi_logo_painter/sample_image.png)
+<image src="https://github.com/YuyaAbo/sakamichi_logo_painter/blob/master/sample_image.png" width=500>
 
 ## Usage
 
