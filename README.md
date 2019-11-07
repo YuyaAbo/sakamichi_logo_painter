@@ -5,15 +5,24 @@
 ## Usage
 
 ```dart
-Container(
-  child: CustomPaint(
-    size: Size(60, 60),
-    painter: SakamichiLogoPainter(
-      foregroundColor: Colors.blue,
-      backgroundColor: Colors.purple,
-    ),
-  ),
-),
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Flutter Demo Home Page'),
+      ),
+      body: Center(
+        child: SakamichiLogo(
+          size: 40,
+          foregroundColor: Colors.blue,
+          backgroundColor: Colors.purple,
+          text: '46',
+        ),
+      ),
+    );
+  }
+}
 ```
 
 ## Getting Started
